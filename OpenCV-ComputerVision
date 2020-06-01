@@ -1,0 +1,12 @@
+import cv2
+
+#Passing the image path
+
+img = cv2.imread("C:\\Users\\SHUKLAK\\Desktop\\cosmoschanges.png")
+
+#Reduce the size of the image
+dim = (1200,500)
+img = cv2.resize(img,dim)
+
+cv2.imshow("Image",img)
+cv2.waitKey(5000)
