@@ -10,3 +10,5 @@ img = cv2.resize(img,dim)
 
 cv2.imshow("Image",img)
 cv2.waitKey(5000)
+
+print("Code Successful!!!")
